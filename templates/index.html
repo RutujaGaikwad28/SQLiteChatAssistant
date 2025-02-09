@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat Assistant</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+        input { padding: 10px; width: 300px; }
+        button { padding: 10px; }
+    </style>
+</head>
+<body>
+    <h2>SQLite Chat Assistant</h2>
+    <form method="POST">
+        <input type="text" name="query" placeholder="Enter your query here" required>
+        <button type="submit">Ask</button>
+    </form>
+    <h3>{{ response }}</h3>
+</body>
+</html>
+
